@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+// Home Page Component
+function HomePage() {
+  return (
+    <div>
+      <h1>Welcome to Our Website</h1>
+      <p>This is the home page of our website. You can explore our content and services here.</p>
+    </div>
+  );
+}
+
+// App Component
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-     she is adorable my agelher <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+      <Route exact path="/" component={HomePage}/>
+        {/* Add more routes here for other pages if needed */}
+      </Switch>
+    </Router>
   );
 }
 

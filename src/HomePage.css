@@ -1,0 +1,61 @@
+.home-container {
+  text-align: center;
+  background-color: #FFC0CB; /* Girly background color (pink) */
+  padding: 0;
+  margin: 0;
+  height: 100vh; /* Make the container cover the full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #FF69B4; /* Header background color (hot pink) */
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.clothing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.clothing-card {
+  border: 1px solid #FF69B4;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.clothing-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.login-section {
+  margin-top: 20px;
+}
+
+.login-button {
+  display: inline-block;
+  background-color: #FF69B4;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #FF1493; /* Darker pink on hover */
+}
