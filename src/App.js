@@ -1,15 +1,16 @@
 import React from 'react';
+import HomePage from './home-page';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Home Page Component
-function HomePage() {
-  return (
-    <div>
-      <h1>Welcome to Our Website</h1>
-      <p>This is the home page of our website. You can explore our content and services here.</p>
-    </div>
-  );
-}
+// function HomePage() {
+//   return (
+//     <div>
+//       <h1>Welcome to Our Website</h1>
+//       <p>This is the home page of our website. You can explore our content and services here.</p>
+//     </div>
+//   );
+// }
 
 // App Component
 function App() {

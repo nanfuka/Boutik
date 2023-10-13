@@ -8,8 +8,8 @@ function HomePage() {
     {
       id: 1,
       name: 'Summer Dress 1',
-      price: '$49.99',
-      image: '/dress1.jpeg',
+      price: '$49.9999',
+      image: './images/dress1.jpeg',
     },
     {
       id: 2,
